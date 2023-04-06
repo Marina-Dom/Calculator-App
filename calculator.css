@@ -1,0 +1,103 @@
+/* background changing colors */
+
+@keyframes cool-color{
+    0% { background: #fecea8; }
+    20% { background: #eeac76; }
+    40% { background: #ff847c; }
+    60% { background: #e84a5f; }
+    80% { background: #ff847c; }
+    100% { background: #fecea8; }
+}
+
+body{
+    background-color: #fecea8;
+    animation: cool-color 9s infinite linear;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+}
+
+.screen{
+    background-color: whitesmoke;
+    border: solid black 2px;
+    color: black;
+    font-size: medium;
+    width: 98%;
+    cursor: default;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+input[type='button']:hover{
+    background-color: whitesmoke;
+}
+
+input[type='button']:active{
+    background-color: lightsalmon;
+}
+
+.operator{
+    background-color: lightblue;
+    padding: 5px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.number{
+    padding: 5px;
+    height: 50px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.decimal, .equal{
+    background-color: lightblue;
+    padding: 5px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.clear{
+    background-color: lightsalmon;
+    padding: 5px;
+    color: black;
+    border: solid black 2px;
+    width: 100%;
+    height: 42px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.container{
+    background-color: white;
+    padding: 15px;
+    color: black;
+    border: solid black 2px;
+    width: 40%;
+    height: 275px;
+    background-color: white;
+    display: block;
+    align-self: center;
+    border-radius: 10px;
+    margin: 100px auto;
+    box-shadow: 5px 10px 20px black;
+}
+
+table{
+    width: 100%;
+}
+
+
